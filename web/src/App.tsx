@@ -4,6 +4,7 @@ import Smoothing from "./Smoothing";
 import WeatherLens from "./WeatherLens";
 import BuildADay from "./BuildADay";
 import Models from "./Models";
+import ThemeToggle from "./ThemeToggle";
 import { READINGS, loadData, longDate, type Day, type Model, type Reading } from "./data";
 
 const PORTFOLIO = "https://jjmensah.github.io/enam_portfolio/";
@@ -78,15 +79,20 @@ export default function App() {
   return (
     <>
       <a className="skip" href="#main">Skip to the year clock</a>
-      <header className="wrap topbar">
-        <a className="brand" href="#main">Air, day by day</a>
-        <nav aria-label="Sections">
-          <a href="#trend">Trend</a>
-          <a href="#weather">Weather</a>
-          <a href="#build">Build a day</a>
-          <a href="#models">Models</a>
-        </nav>
-      </header>
+      <div className="bar">
+        <header className="wrap topbar">
+          <a className="brand" href="#main">Air, day by day</a>
+          <div className="topbar-end">
+            <nav aria-label="Sections">
+              <a href="#trend">Trend</a>
+              <a href="#weather">Weather</a>
+              <a href="#build">Build a day</a>
+              <a href="#models">Models</a>
+            </nav>
+            <ThemeToggle />
+          </div>
+        </header>
+      </div>
 
       <main id="main">
         <section className="wrap hero grid-hero" aria-labelledby="title">
