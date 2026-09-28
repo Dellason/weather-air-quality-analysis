@@ -9,10 +9,10 @@
   --soft: #506273;
   --rule: #d2dce3;
   --accent: #1f5f8b;
-  --good: #8dbdd2;
+  --good: #4a86a2;
   --poor: #7a4a26;
   --pm10: #2a78d6;
-  --pm25: #eb6834;
+  --pm25: #d6531c;
   --shadow: 0 1px 0 rgb(19 33 45 / 0.05), 0 20px 40px -30px rgb(19 33 45 / 0.5);
 
   --display: "Bricolage Grotesque Variable", system-ui, sans-serif;
@@ -36,7 +36,7 @@
     --soft: #9fb1bf;
     --rule: #26343f;
     --accent: #7db7df;
-    --good: #3f7189;
+    --good: #4d86a2;
     --poor: #c68d5d;
     --pm10: #3987e5;
     --pm25: #d95926;
