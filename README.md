@@ -18,6 +18,8 @@
 
 ---
 
+> **Try it:** an interactive site in [`web/`](web/) wraps the year around a ring you can scrub or play, shows what each kind of weather does to the air, and runs both classifiers in the browser.
+
 Daily weather (temperature, humidity, wind, rainfall) and air-quality readings (PM10, PM2.5, NO2,
 SO2, CO) for 2025 are joined on date, explored for seasonal patterns, and used to train two
 classifiers that predict whether a day has **poor air quality**.
@@ -91,6 +93,7 @@ recall on poor days.
 │   └── brief.pdf           # original exam brief
 ├── scripts/
 │   └── make_figures.py
+├── web/                # interactive site (React + Vite)
 └── requirements.txt
 ```
 
