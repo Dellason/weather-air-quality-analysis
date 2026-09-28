@@ -22,7 +22,7 @@
 
 Daily weather (temperature, humidity, wind, rainfall) and air-quality readings (PM10, PM2.5, NO2,
 SO2, CO) for 2025 are joined on date, explored for seasonal patterns, and used to train two
-classifiers that predict whether a day has **poor air quality**.
+classifiers that predict whether a day has **poor air quality**. The data is synthetic: UCD's COMP47670 module generated it to resemble daily readings from Dublin monitoring stations.
 
 ## Highlights
 
