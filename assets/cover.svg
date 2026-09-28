@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <title>Weather &amp; Air Quality Analysis</title>
+  <rect width="1600" height="1000" fill="#d1e2dc"/>
+
+  <!-- Year-long particulate trend: high in winter, low in summer -->
+  <path d="M120 760V520c90-10 170 10 250 50s150 110 250 140 190 20 290-10 170-80 260-150 160-110 240-130 110-10 120-10v350z" fill="#1a1f2c" fill-opacity="0.07"/>
+  <path d="M120 520c90-10 170 10 250 50s150 110 250 140 190 20 290-10 170-80 260-150 160-110 240-130 110-10 120-10" stroke="#2a78d6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M120 640c90-5 170 5 250 30s150 60 250 75 190 10 290-8 170-45 260-85 160-60 240-70 110-5 120-5" stroke="#eb6834" stroke-width="7" stroke-linecap="round"/>
+  <path d="M120 760H1530" stroke="#1a1f2c" stroke-width="6" stroke-linecap="round"/>
+  <g font-family="IBM Plex Mono, Menlo, monospace" font-size="24" fill="#1a1f2c" fill-opacity="0.55">
+    <text x="120" y="805">JAN</text><text x="780" y="805" text-anchor="middle">JUL</text><text x="1530" y="805" text-anchor="end">DEC</text>
+  </g>
+
+  <!-- Sun -->
+  <g stroke="#1a1f2c" stroke-width="5" stroke-linecap="round">
+    <circle cx="560" cy="270" r="72" fill="#eda100"/>
+    <path d="M560 160v-30M560 410v-30M450 270h-30M700 270h-30M482 192l-21-21M659 369l-21-21M482 348l-21 21M659 171l-21 21"/>
+  </g>
+
+  <!-- Cloud -->
+  <path d="M800 390h330a70 70 0 0 0 0-140 110 110 0 0 0-210-30 80 80 0 0 0-120 60 55 55 0 0 0 0 110z" fill="#fcfcfb" stroke="#1a1f2c" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Wind -->
+  <g stroke="#1a1f2c" stroke-width="5" stroke-linecap="round" transform="translate(-300 40)">
+    <path d="M1150 440h140a35 35 0 1 0-35-35"/>
+    <path d="M1150 480h200a30 30 0 1 1-30 30"/>
+  </g>
+
+  <!-- Particles drifting over the winter months -->
+  <g fill="#1a1f2c">
+    <circle cx="200" cy="420" r="9" fill-opacity="0.55"/><circle cx="250" cy="370" r="5" fill-opacity="0.4"/>
+    <circle cx="300" cy="440" r="7" fill-opacity="0.5"/><circle cx="180" cy="330" r="4" fill-opacity="0.35"/>
+    <circle cx="340" cy="360" r="10" fill-opacity="0.45"/><circle cx="1380" cy="330" r="8" fill-opacity="0.5"/>
+    <circle cx="1430" cy="390" r="5" fill-opacity="0.4"/><circle cx="1400" cy="250" r="10" fill-opacity="0.45"/>
+    <circle cx="1460" cy="300" r="4" fill-opacity="0.35"/><circle cx="230" cy="280" r="6" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Legend chips -->
+  <g font-family="IBM Plex Mono, Menlo, monospace" font-size="22" fill="#1a1f2c">
+    <rect x="120" y="880" width="36" height="8" rx="4" fill="#2a78d6"/><text x="170" y="892">PM10</text>
+    <rect x="290" y="880" width="36" height="8" rx="4" fill="#eb6834"/><text x="340" y="892">PM2.5</text>
+  </g>
+</svg>
