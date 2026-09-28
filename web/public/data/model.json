@@ -1,0 +1,68 @@
+{
+ "features": [
+  "temperature",
+  "humidity",
+  "wind_speed",
+  "rainfall",
+  "pm10",
+  "pm25",
+  "no2",
+  "so2",
+  "co",
+  "Low",
+  "Moderate"
+ ],
+ "logistic": {
+  "intercept": -10.930568530244262,
+  "weights": [
+   0.12046015933323766,
+   0.019790527184056984,
+   -0.05915445137098096,
+   -0.01017694280995251,
+   0.07517033935198963,
+   0.1937938643275214,
+   0.004694597619563163,
+   -0.020936028295531928,
+   1.624949568718535,
+   0.025203170097996008,
+   0.04726644351943866
+  ]
+ },
+ "k": 3,
+ "evaluation": {
+  "testDays": 110,
+  "knn": {
+   "accuracy": 0.8545,
+   "matrix": [
+    [
+     67,
+     3
+    ],
+    [
+     13,
+     27
+    ]
+   ]
+  },
+  "logistic": {
+   "accuracy": 0.9,
+   "matrix": [
+    [
+     67,
+     3
+    ],
+    [
+     8,
+     32
+    ]
+   ]
+  }
+ },
+ "beyond": {
+  "method": "Scaled logistic regression, 5-fold cross-validation on all 365 days",
+  "weatherOnly": 0.6658,
+  "pollutantsOnly": 0.8411,
+  "everything": 0.8274,
+  "alwaysGood": 0.6986
+ }
+}
