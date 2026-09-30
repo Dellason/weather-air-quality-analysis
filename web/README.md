@@ -2,7 +2,7 @@
 
 An interactive site for the weather and air-quality analysis. A year of daily readings wraps around a ring that visitors can scrub or play, and the notebook's two classifiers run in the browser.
 
-**Live:** https://jjmensah.github.io/enam_portfolio/lab/air/, served from the portfolio's `public/lab/air/`. Run `npm run lab:air` in `enam_portfolio` to publish a new build.
+**Live:** https://dellason.github.io/lab/air/, served from the portfolio's `public/lab/air/`. Run `npm run lab:air` in `enam_portfolio` to publish a new build.
 
 The data is synthetic: UCD's COMP47670 module generated it to resemble daily readings from Dublin monitoring stations. The site says so on the page.
 

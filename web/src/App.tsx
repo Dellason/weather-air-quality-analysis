@@ -7,7 +7,7 @@ import Models from "./Models";
 import ThemeToggle from "./ThemeToggle";
 import { READINGS, loadData, longDate, type Day, type Model, type Reading } from "./data";
 
-const PORTFOLIO = "https://jjmensah.github.io/enam_portfolio/";
+const PORTFOLIO = "https://dellason.github.io/";
 const CASE_STUDY = `${PORTFOLIO}projects/weather-air-quality/`;
 const CLOCK_READINGS: Reading[] = ["pm25", "pm10", "no2", "so2", "co"];
 
